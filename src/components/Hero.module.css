@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  background-color: #f0f2f5;
+  margin: 0 8px;
+  padding: 0 16px;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+.logo {
+  flex: 0 0 auto;
+  width: calc(100% / 3);
+  background-color: var(--primary);
+}
+
+.navigation {
+  flex: 1;
+  padding: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 500;
+}
