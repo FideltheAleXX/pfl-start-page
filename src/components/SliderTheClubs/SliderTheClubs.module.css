@@ -1,0 +1,42 @@
+.section {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.sliderTrack {
+  display: flex;
+  width: calc(104px * 32);
+  animation: scroll 40s linear infinite;
+}
+
+.sliderTrack:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  width: 104px;
+  flex-shrink: 0;
+  background-color: #fff;
+  padding: 16px;
+  margin-right: 5px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-104px * 16));
+  }
+}
+
+.clubLink {
+  width: 60px;
+  height: 60px;
+}
+
+.clubLogo {
+  width: 65px;
+  height: 65px;
+}
