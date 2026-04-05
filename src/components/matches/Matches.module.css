@@ -1,0 +1,75 @@
+.matches {
+  font-size: 14px;
+  font-weight: 400;
+  width: 83vw;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.track {
+  display: flex;
+  gap: 5px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  width: 272px;
+  flex-shrink: 0;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 5px;
+  margin: 4px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.cardTitle {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+}
+
+.sliderDotsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.sliderDots {
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+.sliderDot {
+  padding: 6px 20px;
+  margin-top: 12px;
+  border-radius: 6px;
+  background-color: #9c9c9d;
+  border: none;
+  cursor: pointer;
+}
+
+.sliderDot.active {
+  background-color: #1bbd32;
+}
+
+.sliderDot:hover {
+  background-color: #454545;
+}
