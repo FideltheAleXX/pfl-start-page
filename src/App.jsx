@@ -1,7 +1,8 @@
 import './App.css';
-import Hero from './components/Hero/Hero';
+import Hero from './components/hero/Hero';
 import Matches from './components/matches/Matches';
-import SliderTheClubs from './components/SliderTheClubs/SliderTheClubs';
+import News from './components/news/News';
+import SliderTheClubs from './components/sliderTheClubs/SliderTheClubs';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <SliderTheClubs />
       <Matches />
+      <News />
     </div>
   );
 }

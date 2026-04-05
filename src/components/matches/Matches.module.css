@@ -1,27 +1,25 @@
 .matches {
   font-size: 14px;
   font-weight: 400;
-  width: 83vw;
+  width: 80.5vw;
   overflow: hidden;
   margin: 0 auto;
 }
 
 .track {
   display: flex;
-  gap: 5px;
+  gap: 8px;
   transition: transform 0.5s ease-in-out;
 }
 
 .card {
-  width: 272px;
+  width: 268px;
   flex-shrink: 0;
   display: grid;
   grid-template-rows: auto auto 1fr;
-  gap: 5px;
-  margin: 4px;
   background-color: white;
   border-radius: 8px;
-  padding: 10px;
+  padding: 6px;
 }
 
 .cardTitle {
@@ -34,11 +32,13 @@
 .topRow {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 6px;
 }
 
 .bottomRow {
   display: flex;
   justify-content: space-between;
+  margin: 4px;
 }
 
 .img {

@@ -5,7 +5,7 @@ const Matches = () => {
   const [matches, setMatches] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const offset = activeIndex * 282;
+  const offset = activeIndex * 276;
 
   useEffect(() => {
     fetch('/matches.json')
