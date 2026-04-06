@@ -21,6 +21,7 @@
 
 .mainBlock {
   width: 100%;
+  position: relative;
 }
 
 .mainImg {
@@ -28,15 +29,88 @@
   object-fit: cover;
   height: 507px;
   border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.mainNews {
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(
+    -180deg,
+    rgba(0, 0, 0, 0) 7%,
+    rgba(0, 0, 0, 0.08) 12%,
+    rgba(0, 0, 0, 0.16) 17%,
+    rgba(0, 0, 0, 0.22) 21%,
+    rgba(0, 0, 0, 0.32) 26%,
+    rgba(0, 0, 0, 0.42) 32%,
+    rgba(0, 0, 0, 0.52) 38%,
+    rgba(0, 0, 0, 0.62) 47%,
+    rgba(0, 0, 0, 0.66) 57%,
+    rgba(0, 0, 0, 0.72) 65%
+  );
+}
+
+.newsBlock {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  margin: 10px;
+}
+
+.newsLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.newsDescript {
+  color: #fff;
+  font-weight: 400;
 }
 
 .secondaryBlock {
   width: 100%;
 }
 
+.secondaryItem {
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.secondaryItem.active {
+  border: 1px solid red;
+}
+
 .secondaryImg {
   width: 100%;
   object-fit: cover;
   height: 124px;
-  border: 1px solid transparent;
+}
+
+.sliderDots {
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+.sliderDot {
+  padding: 6px 20px;
+  margin-top: 12px;
+  border-radius: 6px;
+  background-color: #9c9c9d;
+  border: none;
+  cursor: pointer;
+}
+
+.sliderDot.active {
+  background-color: #1bbd32;
+}
+
+.sliderDot:hover {
+  background-color: #454545;
 }
