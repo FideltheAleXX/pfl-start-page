@@ -3,6 +3,7 @@ import Hero from './components/hero/Hero';
 import Matches from './components/matches/Matches';
 import News from './components/news/News';
 import SliderTheClubs from './components/sliderTheClubs/SliderTheClubs';
+import Standings from './components/standings/Standings';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SliderTheClubs />
       <Matches />
       <News />
+      <Standings />
     </div>
   );
 }

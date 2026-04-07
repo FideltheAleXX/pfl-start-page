@@ -1,0 +1,30 @@
+.standings {
+  font-size: 14px;
+  font-weight: 400;
+  width: 81vw;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 0 10px;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #454545;
+  text-align: center;
+}
+
+.tableHeader {
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr repeat(5, 1fr);
+  text-align: center;
+}

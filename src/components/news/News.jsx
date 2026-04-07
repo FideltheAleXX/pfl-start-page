@@ -75,6 +75,11 @@ const News = () => {
                   src={item.img}
                   alt="football news"
                 />
+                <div className={styles.secondaryNews}>
+                  <div className={styles.secondaryNewsBlock}>
+                    <p>{item.title} </p>
+                  </div>
+                </div>
               </div>
             );
           })}

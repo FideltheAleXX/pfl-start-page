@@ -1,0 +1,33 @@
+export const teams = [
+  // logos!!!!
+  { name: 'Агробізнес', matches: 21, win: 12, draw: 4, lose: 5, points: 40 },
+  { name: 'Чорноморець', matches: 21, win: 13, draw: 6, lose: 2, points: 45 },
+  { name: 'Лівий берег', matches: 21, win: 13, draw: 4, lose: 4, points: 43 },
+  { name: 'Буковина', matches: 21, win: 18, draw: 3, lose: 0, points: 57 },
+  { name: 'Інгулець', matches: 21, win: 10, draw: 6, lose: 5, points: 36 },
+  {
+    name: 'Прикарпаття-Благо',
+    matches: 22,
+    win: 7,
+    draw: 7,
+    lose: 8,
+    points: 28,
+  },
+  { name: 'ЮКСА', matches: 21, win: 7, draw: 5, lose: 9, points: 26 },
+  { name: 'Нива', matches: 22, win: 6, draw: 8, lose: 8, points: 26 },
+  { name: 'Металіст', matches: 21, win: 7, draw: 5, lose: 9, points: 26 },
+  { name: 'Вікторія', matches: 22, win: 7, draw: 4, lose: 11, points: 25 },
+  { name: 'Ворскла', matches: 21, win: 6, draw: 6, lose: 9, points: 24 },
+  { name: 'Чернігів', matches: 21, win: 6, draw: 4, lose: 11, points: 22 },
+  { name: 'Пробій', matches: 21, win: 5, draw: 5, lose: 11, points: 20 },
+  {
+    name: 'Фенікс-Маріуполь',
+    matches: 21,
+    win: 5,
+    draw: 5,
+    lose: 11,
+    points: 20,
+  },
+  { name: 'Поділля', matches: 22, win: 4, draw: 5, lose: 13, points: 17 },
+  { name: 'Металург', matches: 21, win: 3, draw: 5, lose: 13, points: 14 },
+];
