@@ -22,9 +22,23 @@ const Standings = () => {
           <div>П</div>
           <div>О</div>
         </div>
-        {sortedTeams.map((team) => {
+        {sortedTeams.map((team, index) => {
+          let rowClassName = styles.tableRow;
+          if (index < 2) {
+            rowClassName += ` ${styles.topZone}`;
+          } else if (index >= teams.length - 2) {
+            rowClassName += ` ${styles.bottomZone}`;
+          }
           return (
-            <div key={team.name} className={styles.tableRow} role="row">
+            <div key={team.name} className={rowClassName} role="row">
+              <div>{index + 1}</div>
+              <div className={styles.logoContainer}>
+                <img
+                  className={styles.logo}
+                  src={team.logo}
+                  alt="football logo"
+                />
+              </div>
               <div>{team.name}</div>
               <div>{team.matches}</div>
               <div>{team.win}</div>
