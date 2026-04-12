@@ -10,7 +10,7 @@ export const matches = [
   },
   {
     id: 232,
-    name1: 'Прикарпаття-Благо',
+    name1: 'Прикарпаття Благо',
     name2: 'Поділля',
     matchTime: '14:30',
     matchDate: '11.04.2026',

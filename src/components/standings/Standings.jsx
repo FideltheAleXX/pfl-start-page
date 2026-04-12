@@ -9,7 +9,6 @@ const Standings = () => {
 
   return (
     <section className={styles.standings}>
-      <p className={styles.title}>VBET Перша ліга</p>
       <div className={styles.tableHeader}>Турнірна таблиця</div>
       <div className={styles.table} role="table">
         <div role="row" className={styles.headerRow}>

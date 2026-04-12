@@ -5,16 +5,23 @@ import News from './components/news/News';
 import Results from './components/results/Results';
 import SliderTheClubs from './components/sliderTheClubs/SliderTheClubs';
 import Standings from './components/standings/Standings';
+import Disqualified from './components/disqualified/Disqualified';
 
 function App() {
   return (
     <div className="app">
       <Hero />
-      <SliderTheClubs />
-      <Matches />
-      <News />
-      <Standings />
-      <Results />
+      <main>
+        <SliderTheClubs />
+        <Matches />
+        <News />
+        <div className="title">VBET Перша ліга</div>
+        <div className="container">
+          <Standings />
+          <Results />
+        </div>
+        <Disqualified />
+      </main>
     </div>
   );
 }
