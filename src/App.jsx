@@ -6,6 +6,7 @@ import Results from './components/results/Results';
 import SliderTheClubs from './components/sliderTheClubs/SliderTheClubs';
 import Standings from './components/standings/Standings';
 import Disqualified from './components/disqualified/Disqualified';
+import Goals from './components/goals/Goals';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Results />
         </div>
         <Disqualified />
+        <Goals />
       </main>
     </div>
   );
