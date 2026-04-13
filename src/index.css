@@ -14,6 +14,8 @@ html {
 }
 
 body {
-  background-color: #f0f2f5;
+  background: #f0f2f5 url('/background.png') no-repeat 0 30%;
+  background-size: 600px;
+  background-attachment: fixed;
   font-family: 'Montserrat', sans-serif;
 }

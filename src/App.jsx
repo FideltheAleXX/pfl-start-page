@@ -7,6 +7,8 @@ import SliderTheClubs from './components/sliderTheClubs/SliderTheClubs';
 import Standings from './components/standings/Standings';
 import Disqualified from './components/disqualified/Disqualified';
 import Goals from './components/goals/Goals';
+import VideoSection from './components/video-section/VideoSection';
+import Sponsors from './components/sponsors/Sponsors';
 
 function App() {
   return (
@@ -21,9 +23,13 @@ function App() {
           <Standings />
           <Results />
         </div>
-        <Disqualified />
-        <Goals />
+        <div className="container">
+          <Disqualified />
+          <Goals />
+        </div>
+        <VideoSection />
       </main>
+      <Sponsors />
     </div>
   );
 }
