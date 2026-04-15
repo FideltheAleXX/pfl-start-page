@@ -1,0 +1,24 @@
+.sponsors {
+  width: 81vw;
+  margin: 0 auto;
+  padding: 0 12px;
+  font-size: 16px;
+}
+
+.baner {
+  margin: 24px 0px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.sponsorsBlock {
+  background-color: #f8f9fa;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sponsor {
+  padding: 16px;
+  text-align: center;
+}

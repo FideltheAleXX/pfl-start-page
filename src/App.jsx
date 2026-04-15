@@ -9,6 +9,7 @@ import Disqualified from './components/disqualified/Disqualified';
 import Goals from './components/goals/Goals';
 import VideoSection from './components/video-section/VideoSection';
 import Sponsors from './components/sponsors/Sponsors';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <VideoSection />
       </main>
       <Sponsors />
+      <Footer />
     </div>
   );
 }
