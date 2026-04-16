@@ -1,7 +1,7 @@
 .footer {
   background-color: #454545;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-columns: 2fr 1fr 1fr 290px;
   align-items: center;
 }
 
@@ -22,15 +22,37 @@
   height: 32px;
   border: none;
   margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
   transition: all 0.5s linear;
-  display: inline-flex;
 }
 
-.socialLink {
-  text-align: center;
+.social:hover {
+  border: 1px solid #0db04b;
+}
+
+.docs {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0px 8px 0px;
+  font-size: 0.9em;
+}
+
+.docLink {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.5s linear;
+  padding: 4px;
+}
+
+.docLink:hover {
+  color: var(--primary);
 }
 
 .info {
   color: #fff;
   margin: 8px 0px 16px 0px;
+  font-size: 0.9em;
 }
