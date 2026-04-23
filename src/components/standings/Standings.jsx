@@ -1,11 +1,11 @@
 import { useMemo } from 'react';
 import styles from './Standings.module.css';
-import { teams } from '../../data/teams';
+import { standings } from '../../data/standings';
 
 const Standings = () => {
   const sortedTeams = useMemo(() => {
-    return [...teams].sort((a, b) => b.points - a.points);
-  }, [teams]);
+    return [...standings].sort((a, b) => b.points - a.points);
+  }, [standings]);
 
   return (
     <section className={styles.standings}>
@@ -25,7 +25,7 @@ const Standings = () => {
           let rowClassName = styles.tableRow;
           if (index < 2) {
             rowClassName += ` ${styles.topZone}`;
-          } else if (index >= teams.length - 2) {
+          } else if (index >= standings.length - 2) {
             rowClassName += ` ${styles.bottomZone}`;
           }
           return (

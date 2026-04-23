@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Агробізнес",
+    "logo": "/logos/agrobiznes.png"
+  },
+  {
+    "id": "2",
+    "name": "Буковина",
+    "logo": "/logos/bukovyna.png"
+  },
+  {
+    "id": "3",
+    "name": "Вікторія",
+    "logo": "/logos/viktoriya.png"
+  },
+  {
+    "id": "4",
+    "name": "Ворскла",
+    "logo": "/logos/vorskla.png"
+  },
+  {
+    "id": "5",
+    "name": "Інгулець",
+    "logo": "/logos/ingulets.png"
+  },
+  {
+    "id": "6",
+    "name": "Лівий Берег",
+    "logo": "/logos/livyy-bereg.png"
+  },
+  {
+    "id": "7",
+    "name": "Металіст",
+    "logo": "/logos/metalist.png"
+  },
+  {
+    "id": "8",
+    "name": "Металург",
+    "logo": "/logos/metalurg.png"
+  },
+  {
+    "id": "9",
+    "name": "Нива",
+    "logo": "/logos/nyva.png"
+  },
+  {
+    "id": "10",
+    "name": "Поділля",
+    "logo": "/logos/podillya.png"
+  },
+  {
+    "id": "11",
+    "name": "Прикарпаття",
+    "logo": "/logos/prykarpattya.png"
+  },
+  {
+    "id": "12",
+    "name": "Пробій",
+    "logo": "/logos/probiy.png"
+  },
+  {
+    "id": "13",
+    "name": "Фенікс-Маріуполь",
+    "logo": "/logos/mariupol.png"
+  },
+  {
+    "id": "14",
+    "name": "Чернігів",
+    "logo": "/logos/chernigiv.png"
+  },
+  {
+    "id": "15",
+    "name": "Чорноморець",
+    "logo": "/logos/chornomorets.png"
+  },
+  {
+    "id": "16",
+    "name": "ЮКСА",
+    "logo": "/logos/ucsa.png"
+  }
+]

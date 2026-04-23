@@ -37,8 +37,8 @@ const VideoSection = () => {
       >
         {videos.map((video, index) => {
           return (
-            <div className={styles.preview}>
-              <a key={index} href={video.match}>
+            <div key={index} className={styles.preview}>
+              <a href={video.match}>
                 <img
                   className={styles.img}
                   src={video.img}

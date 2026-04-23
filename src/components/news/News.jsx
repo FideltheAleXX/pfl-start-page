@@ -66,7 +66,7 @@ const News = () => {
           {news.map((item, index) => {
             return (
               <div
-                id={item.id}
+                key={item.id}
                 className={`${styles.secondaryItem} ${index === activeIndex ? styles.active : ''}`}
                 onClick={() => setActiveIndex(index)}
               >
