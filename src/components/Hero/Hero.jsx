@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src="/logo-pfl-white.svg" alt="logo PFL" />
+        <img src="./logo-pfl-white.svg" alt="logo PFL" />
       </div>
       <nav className={styles.navigation}>
         <ul className={styles.list}>

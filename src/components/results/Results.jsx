@@ -11,8 +11,8 @@ const Results = () => {
     const loadData = async () => {
       try {
         const [resMatches, resTeams] = await Promise.all([
-          fetch('/data/tour-30.json'),
-          fetch('/data/teams.json'),
+          fetch('./data/tour-30.json'),
+          fetch('./data/teams.json'),
         ]);
 
         const matchesData = await resMatches.json();
@@ -30,7 +30,7 @@ const Results = () => {
 
   return (
     <section className={styles.results}>
-      <div className={styles.tableHeader}>Тур 23</div>
+      <div className={styles.tableHeader}>Тур 30</div>
       <div className={styles.table} role="table">
         <div role="row" className={styles.headerRow}>
           <div>Дата</div>

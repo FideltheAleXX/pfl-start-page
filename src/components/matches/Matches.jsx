@@ -12,8 +12,8 @@ const Matches = () => {
     const loadData = async () => {
       try {
         const [resMatches, resTeams] = await Promise.all([
-          fetch('/data/tour-29.json'),
-          fetch('/data/teams.json'),
+          fetch('./data/tour-29.json'),
+          fetch('./data/teams.json'),
         ]);
 
         const matchesData = await resMatches.json();

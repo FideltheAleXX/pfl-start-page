@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.main}>
-        <img src="/logo-pfl-white.svg" alt="logo PFL" />
+        <img src="./logo-pfl-white.svg" alt="logo PFL" />
       </div>
       <div className={styles.socials}>
         <div className={styles.social}>

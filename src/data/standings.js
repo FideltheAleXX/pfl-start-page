@@ -1,7 +1,7 @@
 export const standings = [
   {
     name: 'Агробізнес',
-    logo: '/logos/agrobiznes.png',
+    logo: './logos/agrobiznes.png',
     matches: 24,
     win: 13,
     draw: 4,
@@ -10,7 +10,7 @@ export const standings = [
   },
   {
     name: 'Чорноморець',
-    logo: '/logos/chornomorets.png',
+    logo: './logos/chornomorets.png',
     matches: 24,
     win: 16,
     draw: 6,
@@ -19,7 +19,7 @@ export const standings = [
   },
   {
     name: 'Лівий берег',
-    logo: '/logos/livyy-bereg.png',
+    logo: './logos/livyy-bereg.png',
     matches: 24,
     win: 14,
     draw: 5,
@@ -28,7 +28,7 @@ export const standings = [
   },
   {
     name: 'Буковина',
-    logo: '/logos/bukovyna.png',
+    logo: './logos/bukovyna.png',
     matches: 24,
     win: 21,
     draw: 3,
@@ -37,7 +37,7 @@ export const standings = [
   },
   {
     name: 'Інгулець',
-    logo: '/logos/ingulets.png',
+    logo: './logos/ingulets.png',
     matches: 24,
     win: 10,
     draw: 8,
@@ -46,7 +46,7 @@ export const standings = [
   },
   {
     name: 'Прикарпаття-Благо',
-    logo: '/logos/prykarpattya.png',
+    logo: './logos/prykarpattya.png',
     matches: 24,
     win: 8,
     draw: 8,
@@ -55,7 +55,7 @@ export const standings = [
   },
   {
     name: 'ЮКСА',
-    logo: '/logos/ucsa.png',
+    logo: './logos/ucsa.png',
     matches: 24,
     win: 8,
     draw: 6,
@@ -64,7 +64,7 @@ export const standings = [
   },
   {
     name: 'Нива',
-    logo: '/logos/nyva.png',
+    logo: './logos/nyva.png',
     matches: 22,
     win: 6,
     draw: 9,
@@ -73,7 +73,7 @@ export const standings = [
   },
   {
     name: 'Металіст',
-    logo: '/logos/metalist.png',
+    logo: './logos/metalist.png',
     matches: 24,
     win: 7,
     draw: 5,
@@ -82,7 +82,7 @@ export const standings = [
   },
   {
     name: 'Вікторія',
-    logo: '/logos/viktoriya.png',
+    logo: './logos/viktoriya.png',
     matches: 22,
     win: 8,
     draw: 5,
@@ -91,7 +91,7 @@ export const standings = [
   },
   {
     name: 'Ворскла',
-    logo: '/logos/vorskla.png',
+    logo: './logos/vorskla.png',
     matches: 24,
     win: 6,
     draw: 6,
@@ -100,7 +100,7 @@ export const standings = [
   },
   {
     name: 'Чернігів',
-    logo: '/logos/chernigiv.png',
+    logo: './logos/chernigiv.png',
     matches: 24,
     win: 7,
     draw: 5,
@@ -109,7 +109,7 @@ export const standings = [
   },
   {
     name: 'Пробій',
-    logo: '/logos/probiy.png',
+    logo: './logos/probiy.png',
     matches: 24,
     win: 7,
     draw: 5,
@@ -118,7 +118,7 @@ export const standings = [
   },
   {
     name: 'Фенікс-Маріуполь',
-    logo: '/logos/mariupol.png',
+    logo: './logos/mariupol.png',
     matches: 24,
     win: 6,
     draw: 6,
@@ -127,7 +127,7 @@ export const standings = [
   },
   {
     name: 'Поділля',
-    logo: '/logos/podillya.png',
+    logo: './logos/podillya.png',
     matches: 22,
     win: 4,
     draw: 7,
@@ -136,7 +136,7 @@ export const standings = [
   },
   {
     name: 'Металург',
-    logo: '/logos/metalurg.png',
+    logo: './logos/metalurg.png',
     matches: 24,
     win: 3,
     draw: 6,
